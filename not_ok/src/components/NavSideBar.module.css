@@ -1,0 +1,7 @@
+.side {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    max-width: 30%;
+    border-right: 2px dashed black;
+}
