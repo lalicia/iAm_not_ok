@@ -24,10 +24,15 @@ h3 {
     width: 300px;
     max-width: 30%;
     margin-left: 1rem;
+    margin-bottom: 2rem;
 }
 
 header {
     margin: 1.5rem 1.5rem 1rem;
+}
+
+#main {
+    position: relative;
 }
 
 /* .page-heading {
