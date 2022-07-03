@@ -1,16 +1,15 @@
 import express from "express";
 import 'dotenv/config';
 import pg from "pg";
-//will probably need to import CORS 
-//will need to import router from file when we're create our routes and exported
+import cors from "cors";
+import router from "./routes/routes.js";
 
-//we export this so server.js can use, potentially also other things
 const app = express();
+const port = process.env.port || 3001;
 
+app.use(cors());
 app.use(express.json());
 
-//router needs importing from routers folder as applicable
-app.use("/", router);
 
 // test route
 app.get("/", function (req, res) {
@@ -20,5 +19,12 @@ app.get("/", function (req, res) {
     });
   });
 
+app.use("/", router);
+
+app.use("/quote", router);
+
+app.listen(port, () => {
+  console.log(`Server listening at http://localhost:${port}`);
+});
 
 export default app;

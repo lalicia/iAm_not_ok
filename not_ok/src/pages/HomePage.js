@@ -7,6 +7,7 @@ import {useNavigate} from "react-router-dom";
 
 import homeStyles from "./HomePage.module.css";
 import NavSideBar from "../components/NavSideBar";
+import QuotePic from "../components/QuotePic";
 
 
 //function uses navigate hook to move pages; buttons call the function, each button set to corresponding image in assets folder
@@ -21,6 +22,7 @@ function HomePage() {
                 <h2>I'm sorry you're not ok.  Hopefully something here can help or make you feel better.</h2>
            <h3>What would you like to give a go?</h3>
            <NavSideBar />
+           <QuotePic />
         </div>
     )
 }
