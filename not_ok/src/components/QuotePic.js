@@ -17,8 +17,8 @@ function QuotePic() {
     const fetchQuote = async () => {
         const response = await fetch("http://localhost:3001/quote");
         const data = await response.json();
-        console.log(data);
-        //setQuoteState(data.payload);
+        //console.log(data);
+        //setQuoteState(data.success);
     };
 
     // useEffect(() => {

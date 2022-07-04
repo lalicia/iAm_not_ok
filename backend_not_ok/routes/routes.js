@@ -14,7 +14,7 @@ router.get("/quote", async function(req, res) {
             success: true,
             payload: quote,
         }
-
+        console.log(result);
         res.json(result);  
     })
 

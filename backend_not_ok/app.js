@@ -21,7 +21,7 @@ app.get("/", function (req, res) {
 
 app.use("/", router);
 
-app.use("/quote", router);
+app.get("/quote", router);
 
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
