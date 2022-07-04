@@ -5,7 +5,7 @@ import {useNavigate} from "react-router-dom";
 
 //imports for images
 
-import homeStyles from "./HomePage.module.css";
+import homeStyles from "./HomePage.module.css"; //this looks like not being used, but if removed the whole page disappears and nothing shows up
 import NavSideBar from "../components/NavSideBar";
 import Quote from "../components/Quote";
 

@@ -37,6 +37,7 @@ header {
     position: relative;
 }
 
+/*p tag doesn't seem to be accepting class?  got around this now by using the <br> but I had initially set a <p> for quote and <p> for author with diff classes, but it wouldn't accept it and removed all styling for them*/
 p {
     text-align: center;
     color: black;
@@ -46,9 +47,4 @@ p {
     margin-top: 8rem;
     font-family: 'Caveat', cursive;
 }
-/* .page-heading {
-    width: 100%;
-    background-color: lightcyan;
-    text-align: center;
-} */
 

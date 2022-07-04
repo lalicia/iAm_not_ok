@@ -1,3 +1,5 @@
+/*I don't think I'm doing this the best/right way.  I want the nav bar to go from where it starts to the bottom of the page so I sort of hacked it with the height property but this isn't great.  Taken off now as the spacing of the options sort-of made it the right legnth but it's not good and I know it lol  I also have a slight scroll when the screen is full-sized that I don't think should be there and I don't know where it's coming from...*/
+
 .side {
     display: flex;
     flex-direction: column;

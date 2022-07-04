@@ -8,6 +8,7 @@ import React, {useState, useEffect} from "react";
 function Quote() {
     // const [picState, setPicState] = useState([]);
     const [quoteState, setQuoteState] = useState([]);
+    const [authorState, setAuthorState] = useState([])
 
     
     useEffect(() => {
@@ -19,13 +20,14 @@ function Quote() {
         const data = await response.json();
         console.log(data);
         setQuoteState(data[0].q);
+        setAuthorState(data[0].a);
     };
 
     //console.log(quoteState);
 
     return (
         <>
-            <p>{quoteState}</p>
+            <p className="quote">{quoteState}<br />{`- ${authorState}`}</p>
         </>
     )
 }
