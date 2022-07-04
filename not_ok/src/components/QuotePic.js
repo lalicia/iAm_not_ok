@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 
-
+import quotePicStyles from "./QuotePic.module.css";
 
 //need function to render image which is from a fetch request to unsplash API 
 //need to display quote from fetch request to quotes API
@@ -17,9 +17,11 @@ function QuotePic() {
     const fetchQuote = async () => {
         const response = await fetch("http://localhost:3001/quote");
         const data = await response.json();
-        //console.log(data);
-        //setQuoteState(data.success);
+        console.log(data);
+        setQuoteState(data[0].q);
     };
+
+    //console.log(quoteState);
 
     // useEffect(() => {
     //     fetchPic();
@@ -32,26 +34,10 @@ function QuotePic() {
     //     setPicState(data.payload);
     // };
 
-    // useEffect(
-    //     function () {
-    //         const fetchQuote = async function () {
-    //         const response = await fetch(
-    //             `https://zenquotes.io/random`
-    //         );
-    //         const data = await response.json();
-    //         console.log(data)
-    //         setQuoteState(data);
-    //         };
-    
-    //         fetchQuote();
-    //     },
-    //     []
-    // )
-
     return (
         <>
             {/* <img className="landscape">{picState}</img> */}
-            <h2>{quoteState}</h2>
+            <p style={quotePicStyles}>{quoteState}</p>
         </>
     )
 }

@@ -10,12 +10,12 @@ router.get("/quote", async function(req, res) {
     // console.log(resourcesID)
     let quote = await getQuote()
                         
-            const result = {
-            success: true,
-            payload: quote,
-        }
-        console.log(result);
-        res.json(result);  
+        //     const result = {
+        //     success: true,
+        //     payload: quote,
+        // }
+        //console.log(quote);
+        res.json(quote);  
     })
 
 

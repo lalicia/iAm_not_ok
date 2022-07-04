@@ -6,7 +6,7 @@ import { response } from "express";
 export async function getQuote() {
     const result = await fetch("https://zenquotes.io/api/random");
     const data = await result.json();
-    console.log(data);
-    //return data;
-    //result.json(data);
+    //console.log(data);
+    return data;
+    //res.json(data);
 };

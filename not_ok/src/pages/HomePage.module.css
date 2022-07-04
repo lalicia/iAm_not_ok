@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
 body {
     background-image: url("../assets/home-page-clouds.png");
     background-position: center center; /* means when you resize you get the center of the image in focus still */
@@ -35,6 +37,15 @@ header {
     position: relative;
 }
 
+p {
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    margin-left: 35%;
+    margin-right: 15%;
+    margin-top: 8rem;
+    font-family: 'Caveat', cursive;
+}
 /* .page-heading {
     width: 100%;
     background-color: lightcyan;
