@@ -27,7 +27,9 @@ function Quote() {
 
     return (
         <>
-            <p className="quote">{quoteState}<br />{`- ${authorState}`}</p>
+            <div className="quote-text">
+                <p className="quote">{quoteState}<br />{`- ${authorState}`}</p>
+            </div>
         </>
     )
 }

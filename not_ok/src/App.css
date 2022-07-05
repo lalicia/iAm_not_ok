@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+
+body {
+    /*background-image: url("./assets/home-page-clouds.png");
+    background-position: center center; /* means when you resize you get the center of the image in focus still*/
+    /*background-attachment: fixed; /*stops the image scrolling when the user scrolls */
+    /*background-repeat: no-repeat; /*stops tiling/strange layout */
+    /*background-size: cover; /* combined with the two above, this makes good setting for styling */
+    background-color: rgb(65, 66, 68)
+}
+
+h1 {
+    font-size: 2.5rem;
+    /* font-weight: bolder; */
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    width: 300px;
+    max-width: 30%;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+header {
+    margin: 1.5rem 1.5rem 1.5rem;
+}
+
+#main {
+    position: relative;
+}
+
+.quote {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: -3%;
+    max-width: 60%;
+}
+
+.quote img {
+    opacity: 70%;
+    border-style: dashed;
+    border-radius: 30px;
+    border-color: white;
+}
+
+.quote::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* background-color: rgba(0,0,0,0.25); */
+    border-radius: 30px;
+    margin: 2px;
+}
+
+/* .quote-text {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.707)
+} */
+
+.quote p {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px black;
+    top: 25%;
+    left: -10%;
+    /* background-color: rgba(188, 208, 194, 0.3); */
+    border-radius: 30px;
+    /* transform: translate(-50%, -50%); */
+    /* margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -25rem; */
+    font-family: 'Caveat', cursive;
+}
+
+/*p tag doesn't seem to be accepting class?  got around this now by using the <br> but I had initially set a <p> for quote and <p> for author with diff classes, but it wouldn't accept it and removed all styling for them*/
+/* p {
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    margin-left: 35%;
+    margin-right: 15%;
+    margin-top: -6rem;
+    font-family: 'Caveat', cursive;
+} */
+
+/* again, can't get class to take?*/
+/* img {
+    max-width: 50%;
+    margin-left: 35%;
+    margin-right: 10%;
+    margin-top: -2%;
+    opacity: 80%;
+} */
