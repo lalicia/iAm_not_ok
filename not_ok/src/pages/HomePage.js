@@ -21,12 +21,9 @@ function HomePage() {
         <div id="main">
             <header><h1>iAm != "ok"</h1></header>
                 <h2>I'm sorry you're not ok.  Hopefully something here can help or make you feel better.</h2>
-            <h3>What would you like to give a go?</h3>
+            {/* <h3>What would you like to give a go?</h3> */}
             <NavSideBar />
-            <div className="quote">
-                <QuotePic />
-                <Quote />
-            </div>
+            <Quote />
             
         </div>
     )
