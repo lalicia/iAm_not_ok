@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+.homepage-container {
+    background-image: url("../assets/home-page-clouds.png");
+    background-position: center center; /* means when you resize you get the center of the image in focus still */
+    background-attachment: fixed; /*stops the image scrolling when the user scrolls */
+    background-repeat: no-repeat; /*stops tiling/strange layout */
+    background-size: cover; /*combined with the two above, this makes good setting for styling */
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    margin: 1.5rem 1.5rem 1.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    /* font-weight: bolder; */
+}
+
+h2 {
+    font-size: 2.75rem;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 4rem;
+    min-width: 70%;
+}
+
+h3 {
+    font-size: 1.5rem;
+    width: 300px;
+    max-width: 30%;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.quote-text p {
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px rgb(153, 121, 250);
+    background-color: rgba(220, 186, 231, 0.25);
+    border-color: white;
+    border-style: dashed;
+    padding: 60px;
+    border-radius: 30px;
+    margin-left: 32%;
+    margin-right: 10%;
+    margin-top: 5rem;
+    font-family: 'Caveat', cursive;
+}

@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 //import pages here (some examples left)
-// import HomePage from "./pages/HomePage";
+import WriteOutPage from "./pages/WriteOutPage";
 // import HtmlTopic from "./pages/HtmlTopic";
 
 
@@ -19,9 +19,9 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         {/* have not set an index for App as HomePage is rendered through the App function  */}
-
+        <Route path="/writeout" element={<WriteOutPage />} />
           {/* These are more examples can be tweaked to what I need: 
-          <Route path="/html" element={<HtmlTopic />} />
+          
           <Route path="/css" element={<CssTopic />} />
           <Route path="*" element={<ErrorPage />} />
           */}

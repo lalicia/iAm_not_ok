@@ -1,30 +1,42 @@
 /*I don't think I'm doing this the best/right way.  I want the nav bar to go from where it starts to the bottom of the page so I sort of hacked it with the height property but this isn't great.  Taken off now as the spacing of the options sort-of made it the right legnth but it's not good and I know it lol  I also have a slight scroll when the screen is full-sized that I don't think should be there and I don't know where it's coming from...*/
-
-.side {
+.nav-bar {
+    position: absolute;
+    /* background-color: rgb(65, 66, 68, 0.6); */
+    /* margin-top: 20rem; */
+    height: 70vh;
+    width: 20rem;
+    max-width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 300px;
-    max-width: 30%;
+    align-items: center;
     border-right: 2px dashed white;
-    font-size: 1.3rem;
-    /* height: 60vh; */
-    position: absolute;
-    height: 60%;
 }
 
-a {
-    /* margin-bottom: 1.5rem; */
+.nav-list {
+    list-style: none;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-list-item {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.nav-link {
     color: white;
-    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
     margin-left: 1.25rem;
     margin-right: .5rem;
     padding-bottom: .5rem;
     padding-top: .5rem;
-    /* border-bottom: 2px dashed white; */
+    text-decoration: none;
 }
 
-a:hover {
-    color: rgb(90, 226, 244);
+.nav-link:hover {
+    color: rgb(153, 121, 250);
     text-shadow: 0.5px 0.5px 0.5px white;
 }
