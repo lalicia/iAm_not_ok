@@ -32,6 +32,12 @@ h3 {
     /* here the width styles help position around image */
     width: 300px;
     max-width: 30%;
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-bottom: 2rem;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.writeout-all {
+    position: relative;
 }
