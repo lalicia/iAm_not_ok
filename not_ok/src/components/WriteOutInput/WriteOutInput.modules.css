@@ -16,7 +16,8 @@
     border-color: white;
     background-color: rgba(54, 40, 19, 0.2);
     border-radius: 30px;
-    /* transition: background 3s; */
+    /* for when fades back to this version on state update */
+    transition: 3s;
 }
 
 .empty-writeout {

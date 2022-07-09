@@ -8,6 +8,11 @@
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 header {
     margin: 1.5rem 1.5rem 1.5rem;
 }

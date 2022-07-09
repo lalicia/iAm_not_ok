@@ -18,9 +18,15 @@ function WriteOutInput() {
         setEmpty(prev => !prev);
         // setInputValue("");
 
+        //delays the state changing so that it's like the words blend into the background, but they DO disappear slightly after transition 
         setTimeout(() => {
             setInputValue("");
         }, 2200);
+
+        //change the state again to set the box back to the beginning setting, so could be reused but also just to show text is gone not hidden and also looks ace haha
+        setTimeout(() => {
+            setEmpty(prev => !prev);
+        }, 3500);
     };
   
  

@@ -17,7 +17,7 @@ function WriteOutPage() {
 
     return (
         <div className="writeout-container">
-            <header><h1>iAm != "ok"</h1></header>
+            <header><h1><a href="/">iAm != "ok"</a></h1></header>
             <h2>Here's a space for you to write-out whatever's bothering you...<br />and then let it go.</h2>
             <div className="writeout-all">
                 <div className="writeout-explanation">

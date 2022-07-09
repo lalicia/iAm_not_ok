@@ -19,7 +19,7 @@ function HomePage() {
 
     return (
         <div className="homepage-container">
-            <header><h1>iAm != "ok"</h1></header>
+            <header><h1><a href="/">iAm != "ok"</a></h1></header>
                 <h2>I'm sorry you're not ok.  Hopefully something here can help or make you feel better.</h2>
             {/* <h3>What would you like to give a go?</h3> */}
             <NavSideBar />
