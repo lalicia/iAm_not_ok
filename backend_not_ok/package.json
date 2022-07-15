@@ -6,8 +6,12 @@
   "type": "module",
   "scripts": {
     "start": "node -r dotenv/config app.js",
-    "dev": "nodemon -r -dotenv/config app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "createTable": "",
+    "populateTable": "",
+    "dropTable": "",
+    "resetTable": "node run dropTable && createTable && populateTable"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +22,7 @@
     "pg": "^8.7.3"
   },
   "devDependencies": {
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
   }
 }

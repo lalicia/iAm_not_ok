@@ -5,28 +5,29 @@ import {useNavigate} from "react-router-dom";
 
 //imports for images
 
-import styles from "./HomePage.module.css";
+import "./HappyDosePage.modules.css";
 import NavSideBar from "../components/NavSideBar/NavSideBar";
-import Quote from "../components/Quote/Quote";
-// import QuotePic from "../components/QuotePic";
 
 
 //function uses navigate hook to move pages; buttons call the function, each button set to corresponding image in assets folder
-function HomePage() {
+function HappyDosePage() {
     //this might not be used here?  May need to move to NavSideBar which has the options for moving pages...
     let navigate = useNavigate();
     // style={{backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"contain",width:"100%"}}
 
     return (
-        <div className={styles.container}>
+        <div className="happydose-container">
             <header><h1><a href="/">iAm != "ok"</a></h1></header>
-                <h2>I'm sorry you're not ok.  Hopefully something here can help or make you feel better.</h2>
-            {/* <h3>What would you like to give a go?</h3> */}
+                <h2>Ok, so what sounds like your idea of happy?</h2>
             <NavSideBar />
-            <Quote />
+
+            <div className="happydose-selection">
+            
+
+            </div>
             
         </div>
     )
 }
 
-export default HomePage;
+export default HappyDosePage;

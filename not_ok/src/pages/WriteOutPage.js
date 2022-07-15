@@ -3,7 +3,7 @@ import React from "react";
 //import for React Router to allow page transitions
 import {useNavigate} from "react-router-dom";
 
-import "./WriteOutPage.modules.css";
+import styles from "./WriteOutPage.module.css";
 import WriteOutInput from "../components/WriteOutInput/WriteOutInput";
 
 //imports for images
@@ -16,7 +16,7 @@ function WriteOutPage() {
     // style={{backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"contain",width:"100%"}}
 
     return (
-        <div className="writeout-container">
+        <div className={styles.container}>
             <header><h1><a href="/">iAm != "ok"</a></h1></header>
             <h2>Here's a space for you to write-out whatever's bothering you...<br />and then let it go.</h2>
             <div className="writeout-all">

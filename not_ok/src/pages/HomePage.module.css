@@ -1,10 +1,13 @@
-.writeout-container {
-    background-image: url("../assets/fire.jpg");
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+.container {
+    position: relative;
+    background-image: url("../assets/home-page-clouds.png");
     background-position: center center; /* means when you resize you get the center of the image in focus still */
     background-attachment: fixed; /*stops the image scrolling when the user scrolls */
     background-repeat: no-repeat; /*stops tiling/strange layout */
     background-size: cover; /*combined with the two above, this makes good setting for styling */
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
 }
 
@@ -34,15 +37,24 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
-    /* here the width styles help position around image */
     width: 300px;
     max-width: 30%;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 2rem;
-    /* display: flex;
-    flex-direction: row; */
 }
 
-.writeout-all {
-    position: relative;
+.quote-text p {
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px rgb(153, 121, 250);
+    background-color: rgba(220, 186, 231, 0.25);
+    border-color: white;
+    border-style: dashed;
+    padding: 60px;
+    border-radius: 30px;
+    margin-left: 32%;
+    margin-right: 10%;
+    margin-top: 5rem;
+    font-family: 'Caveat', cursive;
 }

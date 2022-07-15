@@ -1,0 +1,49 @@
+.container {
+    /* position: relative; */
+    background-image: url("../assets/fire.jpg");
+    background-position: center center; /* means when you resize you get the center of the image in focus still */
+    background-attachment: fixed; /*stops the image scrolling when the user scrolls */
+    background-repeat: no-repeat; /*stops tiling/strange layout */
+    background-size: cover; /*combined with the two above, this makes good setting for styling */
+    height: 100vh;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    margin: 1.5rem 1.5rem 1.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    /* font-weight: bolder; */
+}
+
+h2 {
+    font-size: 2.75rem;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 4rem;
+    min-width: 70%;
+}
+
+h3 {
+    font-size: 1.5rem;
+    /* here the width styles help position around image */
+    width: 300px;
+    max-width: 30%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.writeout-all {
+    position: relative;
+}

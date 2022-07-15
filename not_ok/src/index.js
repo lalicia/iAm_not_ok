@@ -9,6 +9,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 //import pages here (some examples left)
 import WriteOutPage from "./pages/WriteOutPage";
+import HappyDosePage from "./pages/HappyDosePage";
 // import HtmlTopic from "./pages/HtmlTopic";
 
 
@@ -20,6 +21,7 @@ root.render(
         <Route path="/" element={<App />} />
         {/* have not set an index for App as HomePage is rendered through the App function  */}
         <Route path="/writeout" element={<WriteOutPage />} />
+        <Route path="/happydose" element={<HappyDosePage />} />
           {/* These are more examples can be tweaked to what I need: 
           
           <Route path="/css" element={<CssTopic />} />

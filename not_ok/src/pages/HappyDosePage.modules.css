@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+/*essentially same as HomePage just rendering choices for next page*/
 
-.homepage-container {
+.happydose-container {
+    position: relative;
     background-image: url("../assets/home-page-clouds.png");
     background-position: center center; /* means when you resize you get the center of the image in focus still */
     background-attachment: fixed; /*stops the image scrolling when the user scrolls */
     background-repeat: no-repeat; /*stops tiling/strange layout */
     background-size: cover; /*combined with the two above, this makes good setting for styling */
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
 }
 

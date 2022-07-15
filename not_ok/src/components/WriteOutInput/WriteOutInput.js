@@ -1,7 +1,7 @@
 //may not need state, not sure yet
 import React, {useState} from "react";
 
-import "./WriteOutInput.modules.css";
+import styles from "./WriteOutInput.module.css";
 
 //needs to render box that disappears
 function WriteOutInput() {
@@ -28,13 +28,10 @@ function WriteOutInput() {
             setEmpty(prev => !prev);
         }, 3500);
     };
-  
- 
-//think I might need to create a button component and have it target the input area like function onClick() { setWriting""; const box = TextBox; TextBox = {writing}}
 
     return (
         <>
-            <textarea className={isEmpty ? "empty-writeout" : "write-out"} value={inputValue} onChange={handleUserInput} >
+            <textarea className={isEmpty ? `${styles.emptywriteout}` : `${styles.writeout}`} value={inputValue} onChange={handleUserInput} spellcheck="false">
             </textarea>
             <button onClick={resetInputField}>Release</button>
         </>

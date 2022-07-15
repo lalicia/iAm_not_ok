@@ -1,5 +1,5 @@
 /*I don't think I'm doing this the best/right way.  I want the nav bar to go from where it starts to the bottom of the page so I sort of hacked it with the height property but this isn't great.  Taken off now as the spacing of the options sort-of made it the right legnth but it's not good and I know it lol  I also have a slight scroll when the screen is full-sized that I don't think should be there and I don't know where it's coming from...*/
-.nav-bar {
+.navbar {
     position: absolute;
     /* background-color: rgb(65, 66, 68, 0.6); */
     /* margin-top: 20rem; */
@@ -13,19 +13,19 @@
     border-right: 2px dashed white;
 }
 
-.nav-list {
+.navlist {
     list-style: none;
     margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
-.nav-list-item {
+.navlistitem {
     text-align: center;
     padding: 1rem 0;
 }
 
-.nav-link {
+.navlink {
     color: white;
     font-size: 1.5rem;
     position: relative;
@@ -36,7 +36,7 @@
     text-decoration: none;
 }
 
-.nav-link:hover {
+.navlink:hover {
     color: rgb(153, 121, 250);
     text-shadow: 0.5px 0.5px 0.5px white;
 }

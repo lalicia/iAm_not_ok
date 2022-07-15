@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
-.write-out {
+.writeout {
     font-family: 'Nothing You Could Do', cursive;
     font-size: 1.2rem;
     position: absolute;
@@ -15,12 +15,13 @@
     border: dashed;
     border-color: white;
     background-color: rgba(54, 40, 19, 0.2);
+    /* background: linear-gradient(rgba(54, 40, 19, 0.2), rgba(54, 40, 19, 0.2)); */
     border-radius: 30px;
     /* for when fades back to this version on state update */
     transition: 3s;
 }
 
-.empty-writeout {
+.emptywriteout {
     font-family: 'Nothing You Could Do', cursive;
     font-size: 1.2rem;
     position: absolute;
