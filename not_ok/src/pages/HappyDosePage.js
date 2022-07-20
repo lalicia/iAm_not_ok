@@ -4,9 +4,11 @@ import React from "react";
 import {useNavigate} from "react-router-dom";
 
 //imports for images
+import happyfeeds from "../assets/happydose_meme.JPG";
 
 import styles from "./HappyDosePage.module.css";
 import NavSideBar from "../components/NavSideBar/NavSideBar";
+import Card from "../components/Card/Card.js";
 
 
 //function uses navigate hook to move pages; buttons call the function, each button set to corresponding image in assets folder
@@ -22,7 +24,11 @@ function HappyDosePage() {
             <NavSideBar />
 
             <div className="happydose-selection">
-            
+                <Card 
+                    title="Amusing Feeds" 
+                    imageUrl={happyfeeds} 
+                    body="Placeholder text here about blah blah blah"
+                />
 
             </div>
             
