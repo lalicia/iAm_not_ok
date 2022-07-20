@@ -1,6 +1,6 @@
 /*essentially same as HomePage just rendering choices for next page*/
 
-.happydose-container {
+.container {
     position: relative;
     background-image: url("../assets/home-page-clouds.png");
     background-position: center center; /* means when you resize you get the center of the image in focus still */

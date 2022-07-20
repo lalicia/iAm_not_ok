@@ -5,7 +5,7 @@ import {useNavigate} from "react-router-dom";
 
 //imports for images
 
-import "./HappyDosePage.modules.css";
+import styles from "./HappyDosePage.module.css";
 import NavSideBar from "../components/NavSideBar/NavSideBar";
 
 
@@ -16,7 +16,7 @@ function HappyDosePage() {
     // style={{backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"contain",width:"100%"}}
 
     return (
-        <div className="happydose-container">
+        <div className={styles.container}>
             <header><h1><a href="/">iAm != "ok"</a></h1></header>
                 <h2>Ok, so what sounds like your idea of happy?</h2>
             <NavSideBar />
