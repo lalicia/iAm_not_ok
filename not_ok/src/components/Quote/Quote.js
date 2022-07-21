@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 
-//import quoteStyles from "./Quote.module.css";
+import styles from "./Quote.module.css";
 
 //need function to render image which is from a fetch request to unsplash API 
 //need to display quote from fetch request to quotes API
@@ -27,7 +27,7 @@ function Quote() {
 
     return (
         <>
-            <div className="quote-text">
+            <div className={styles.quote}>
                 <p className="quote">{quoteState}<br />{`- ${authorState}`}</p>
             </div>
         </>
