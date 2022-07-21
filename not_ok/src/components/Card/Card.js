@@ -1,11 +1,7 @@
-import React, {useState, useEffect} from "react";
-
 import styles from "./Card.module.css";
 
 function Card({title, imageUrl, body}) {
    
-
-
     return (
         <>
             <div className={styles.container}>

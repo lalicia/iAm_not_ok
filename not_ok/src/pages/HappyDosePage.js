@@ -5,6 +5,8 @@ import {useNavigate} from "react-router-dom";
 
 //imports for images
 import happyfeeds from "../assets/happydose_meme.JPG";
+import happycats from "../assets/happydose_cat.jpg";
+import happymedia from "../assets/happydose_media.JPG";
 
 import styles from "./HappyDosePage.module.css";
 import NavSideBar from "../components/NavSideBar/NavSideBar";
@@ -23,11 +25,21 @@ function HappyDosePage() {
                 <h2>Ok, so what sounds like your idea of happy?</h2>
             <NavSideBar />
 
-            <div className="happydose-selection">
+            <div className={styles.dose_selection}>
                 <Card 
                     title="Amusing Feeds" 
                     imageUrl={happyfeeds} 
-                    body="Placeholder text here about blah blah blah"
+                    body="Let's checkout some funny feeds - memes, gifs - gimme what you got"
+                />
+                 <Card 
+                    title="Cats Cats Cats" 
+                    imageUrl={happycats} 
+                    body="I want to use the internet for its true purpose - cats please"
+                />
+                 <Card 
+                    title="Music, Movies, and more" 
+                    imageUrl={happymedia} 
+                    body="Let's see some ideas from other people - maybe add one too :)"
                 />
 
             </div>
