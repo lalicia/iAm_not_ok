@@ -22,7 +22,7 @@
     justify-content: center;
 }
 
-.imagecontainer img{
+.imagecontainer img {
     margin-top: 1rem;
     overflow: hidden;
     height: 200px;
@@ -38,6 +38,7 @@
     /*resetting default value*/
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 
 .cardtitle {

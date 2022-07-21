@@ -12,16 +12,14 @@ function Card({title, imageUrl, body}) {
                 <div className={styles.imagecontainer}>
                     <img src={imageUrl} alt="" />
                 </div>
-
                 <div className={styles.cardcontent}>
                     <div className={styles.cardtitle}>
                         <h3 className={styles.cardh3}>{title}</h3>
                     </div>
-
                     <div className="card-body">
                         <p className={styles.cardp}>{body}</p>
                     </div>
-                
+                </div>
 
                 <div className={styles.cardbutton}>
                     <button>
@@ -29,7 +27,6 @@ function Card({title, imageUrl, body}) {
                             This sounds good
                         </a>
                     </button>
-                </div>
                 </div>
             </div>
         </>
