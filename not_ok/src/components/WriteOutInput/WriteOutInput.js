@@ -33,7 +33,7 @@ function WriteOutInput() {
         <>
             <textarea className={isEmpty ? `${styles.emptywriteout}` : `${styles.writeout}`} value={inputValue} onChange={handleUserInput} spellcheck="false">
             </textarea>
-            <button onClick={resetInputField}>Release</button>
+            <button className={styles.writeout_btn} onClick={resetInputField}>Release</button>
         </>
     )
 }
