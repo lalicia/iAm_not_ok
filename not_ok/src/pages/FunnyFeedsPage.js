@@ -26,13 +26,14 @@ function FunnyFeedsPage() {
                     <Feed url="https://api.reddit.com/r/ProgrammerHumor.json"/>
                 </div>
 
-                <div className={styles.historyfeed}>
-                    <Feed url="https://api.reddit.com/r/HistoryMemes.json"/>
+                <div className={styles.sylabfeed}>
+                    <Feed url="https://api.reddit.com/r/sylab.json"/>
                 </div>
 
-                <div className={styles.animalfeed}>
-                    <Feed url="https://api.reddit.com/r/AnimalsBeingFunny.json"/>
+                <div className={styles.historyfeed}>
+                    <Feed url="https://api.reddit.com/r/lotrmemes.json"/>
                 </div>
+
             </div>
         </div>
     )
