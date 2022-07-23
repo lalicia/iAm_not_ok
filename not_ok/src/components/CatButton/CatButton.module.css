@@ -1,0 +1,57 @@
+.catpic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 10%; */
+}
+
+.catimg {
+    margin-top: 2rem;
+    border: .5em solid black;
+    box-shadow: 0 0 1em .25em rgb(54, 31, 1),
+    0 0 4em 1em rgb(54, 31, 1),
+    inset 0 0 .75em .25em rgb(54, 31, 1);
+    border-radius: 50px;
+    overflow: hidden;
+    width: auto;
+    height: 350px;
+    /* display: flex;
+    justify-self: center; */
+  }
+  
+.getcat_btn {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 3rem;
+    border: .25em solid black;
+    padding: .5em 1.5em;
+    color: black;
+    font-size: 1.5rem;
+    /*font-weight: bold; */
+    background-color: white;
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em white,
+           0 0 1em 1em white,
+           inset 0 0 .25em .25em white;
+    text-shadow: 0 0 rgb(54, 31, 1);
+    /* position: relative; */
+    transition: all 0.3s;
+    /*width: 320px;*/
+   }
+   
+/* .getcat_btn::after {
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   } */
+   
+.getcat_btn:hover {
+    color: rgb(49, 30, 3);
+    background-color: white;
+    box-shadow: 0 0 .25em .2em white,
+           0 0 .5em .5em white,
+           inset 0 0 .75em .25em rgb(255, 130, 46);
+    border-color: rgb(49, 30, 3);
+    transform: scale(1.05)
+   }

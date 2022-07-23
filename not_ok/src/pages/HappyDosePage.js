@@ -30,16 +30,19 @@ function HappyDosePage() {
                     title="Amusing Feeds" 
                     imageUrl={happyfeeds} 
                     body="Let's checkout some funny feeds - memes, gifs - gimme what you got"
+                    page=""
                 />
                  <Card 
                     title="Cats Cats Cats" 
                     imageUrl={happycats} 
                     body="I want to use the internet for its true purpose - cats please"
+                    page="/happydose/catpicgenerator"
                 />
                  <Card 
-                    title="Music, Movies, and more" 
+                    title="Music, Movies, and More" 
                     imageUrl={happymedia} 
                     body="Let's see some ideas from other people - maybe add one too :)"
+                    page=""
                 />
 
             </div>

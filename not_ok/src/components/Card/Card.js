@@ -1,6 +1,6 @@
 import styles from "./Card.module.css";
 
-function Card({title, imageUrl, body}) {
+function Card({title, imageUrl, body, page}) {
    
     return (
         <>
@@ -19,7 +19,7 @@ function Card({title, imageUrl, body}) {
 
                 <div className={styles.cardbutton}>
                     <button>
-                        <a className={styles.happy}>
+                        <a className={styles.happy} href={page}>
                             This sounds good
                         </a>
                     </button>
