@@ -30,7 +30,7 @@ function HappyDosePage() {
                     title="Amusing Feeds" 
                     imageUrl={happyfeeds} 
                     body="Let's checkout some funny feeds - memes, gifs - gimme what you got"
-                    page=""
+                    page="/happydose/funnyfeeds"
                 />
                  <Card 
                     title="Cats Cats Cats" 

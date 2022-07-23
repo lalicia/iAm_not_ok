@@ -1,0 +1,26 @@
+.feedcontainer {
+    /* margin-top: 2rem; */
+    width: 99%;
+    background: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-left: 0.1rem;
+    margin-bottom: .5rem;
+}
+
+.feedp {
+    font-size: 1rem;
+    /* text-align: center; */
+    max-width: 80%;
+    margin-left: .5rem;
+}
+
+.feedpic {
+    margin-left: .02rem;
+    height: auto;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
