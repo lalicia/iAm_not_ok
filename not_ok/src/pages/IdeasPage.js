@@ -9,6 +9,7 @@ import {useNavigate} from "react-router-dom";
 
 import styles from "./IdeasPage.module.css";
 import PostIt from "../components/PostIt/PostIt.js";
+import Input from "../components/Input/Input.js";
 
 
 function IdeasPage() {
@@ -21,6 +22,8 @@ function IdeasPage() {
             <header><h1><a href="/">iAm != "ok"</a></h1></header>
                 <h2>Let's get some inspiration...</h2>
             
+                <Input />
+
                 <div className={styles.idea_postits}>
                     <PostIt 
                         body="Go watch The Mummy - it's ace!"

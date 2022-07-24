@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
+
 .container {
     position: relative;
     background-image: url("../assets/desk.jpg");
@@ -35,6 +37,26 @@ h2 {
     margin-left: 4rem;
     min-width: 70%;
 }
+
+/* .input_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+/* .label_ideasinput {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.idea_input {
+    height: 2rem;
+    padding: 10px 10px 15px 10px;
+    margin-left: 0;
+    width: 15rem;
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 1.5rem;
+}*/
 
 .idea_postits {
     display: flex;
