@@ -25,8 +25,18 @@ function Feed({url}) {
         // const thumbnail = data.data.children[0].data.url;
 
         const results = data.data.children;
+
+        //trying to weed out the stickied post - works!
+        const betterResults = results.filter((item) => {
+            return item.data.stickied === false
+        })
+
+        //trying to weed out video posts - works!
+        const finalResults = betterResults.filter((item) => {
+            return item.data.is_video === false
+        })
    
-        setFeedState(results);
+        setFeedState(finalResults);
         //was title
         // setPicState(thumbnail);
     };

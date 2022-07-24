@@ -42,6 +42,14 @@ h2 {
     justify-content: space-around;
 }
 
+.h3feed {
+    max-width: 100%;
+    /* word-wrap: break-word; */
+    margin-left: 0;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
 .progfeed {
     margin-top: 2rem;
     width: 25%;

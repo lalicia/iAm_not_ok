@@ -23,14 +23,17 @@ function FunnyFeedsPage() {
             
             <div className={styles.allfeeds}>
                 <div className={styles.progfeed}>
+                    <h3 className={styles.h3feed}><a href="https://reddit.com/r/ProgrammerHumor" target="_blank" rel="noreferrer">reddit.com/r/ProgrammerHumor</a></h3>
                     <Feed url="https://api.reddit.com/r/ProgrammerHumor.json"/>
                 </div>
 
                 <div className={styles.sylabfeed}>
-                    <Feed url="https://api.reddit.com/r/sylab.json"/>
+                    <h3 className={styles.h3feed}><a href="https://reddit.com/r/FunnyAnimals" target="_blank" rel="noreferrer">reddit.com/r/FunnyAnimals</a></h3>
+                    <Feed url="https://api.reddit.com/r/FunnyAnimals.json"/>
                 </div>
 
                 <div className={styles.historyfeed}>
+                    <h3 className={styles.h3feed}><a href="https://reddit.com/r/lotrmemes" target="_blank" rel="noreferrer">reddit.com/r/lotrmemes</a></h3>
                     <Feed url="https://api.reddit.com/r/lotrmemes.json"/>
                 </div>
 
