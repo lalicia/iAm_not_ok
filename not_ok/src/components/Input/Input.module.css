@@ -19,3 +19,14 @@
     font-family: 'Just Me Again Down Here', cursive;
     font-size: 1.5rem;
 }
+
+.idea_btn {
+    padding: 0 10px 0 10px;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.idea_btn:hover {
+    background-color: palegreen;
+    outline: none;
+}

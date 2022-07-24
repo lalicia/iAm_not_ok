@@ -14,9 +14,28 @@ import Input from "../components/Input/Input.js";
 
 function IdeasPage() {
     const [doses, setDoses] = useState([]);
+    const [text, setText] = useState("");
 
-    //this might not be used here?  May need to move to NavSideBar which has the options for moving pages...
-    let navigate = useNavigate();
+    function handleClick(input) {
+        const newDose = {
+          dose: input
+        } 
+    /* 
+        async function postTodo(){
+          let res= await fetch('http://localhost:3001/todo'{
+            method: 'POST',
+            headers:{'Content-Type':"application/json"},
+            body:JSON.stringify(newItem)
+          })
+          let addeditem= await res.json
+          }
+    
+     */
+    
+        console.log(newDose)
+        setDoses([...doses, newDose]);
+        setText("");
+      }
 
     //request to backend for doses
     async function fetchDoses(){
@@ -37,7 +56,7 @@ function IdeasPage() {
             <header><h1><a href="/">iAm != "ok"</a></h1></header>
                 <h2>Let's get some inspiration...</h2>
             
-                <Input />
+                <Input handleClick={handleClick} text={text} setText={setText}/>
 
                 <div className={styles.idea_postits}>
                     <PostIt doses={doses} />
