@@ -12,6 +12,7 @@ import WriteOutPage from "./pages/WriteOutPage";
 import HappyDosePage from "./pages/HappyDosePage";
 import CatGenPage from "./pages/CatGenPage";
 import FunnyFeedsPage from "./pages/FunnyFeedsPage";
+import IdeasPage from "./pages/IdeasPage";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,6 +26,7 @@ root.render(
         <Route path="/happydose" element={<HappyDosePage />} />
         <Route path="/happydose/catpicgenerator" element={<CatGenPage />} />
         <Route path="/happydose/funnyfeeds" element={<FunnyFeedsPage />} />
+        <Route path="/happydose/ideas" element={<IdeasPage />} />
           {/* These are more examples can be tweaked to what I need: 
           
           <Route path="/css" element={<CssTopic />} />

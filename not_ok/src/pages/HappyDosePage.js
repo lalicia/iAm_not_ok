@@ -42,7 +42,7 @@ function HappyDosePage() {
                     title="Music, Movies, and More" 
                     imageUrl={happymedia} 
                     body="Let's see some ideas from other people - maybe add one too :)"
-                    page=""
+                    page="/happydose/ideas"
                 />
 
             </div>

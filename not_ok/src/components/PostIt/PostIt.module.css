@@ -1,0 +1,30 @@
+.container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    /* transition: 0.5s;
+    animation: ease-in; */
+    /*had to take out the below line as it was forcing the cards to stack on top of one another!*/
+    /* position: absolute; */
+    /* margin-left: 5rem;
+    margin-top: 5rem; */
+    background-color: rgba(255, 249, 86, 0.9);
+    border-radius: 3px;
+    color: black;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.postit_body {
+    margin: 1rem;
+    margin-top: 1rem;
+}
+
+.postit_p {
+    /*resetting default value*/
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
