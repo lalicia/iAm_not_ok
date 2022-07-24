@@ -18,7 +18,16 @@ a {
 }
 
 .cat_header {
-    margin: 1.5rem 1.5rem 1.5rem;
+    margin: 1.5rem 1.5rem -.5rem 1.5rem;
+    color: black;
+}
+
+.h3_back {
+    margin-top: -2rem;
+    margin-bottom: -1rem;
+}
+
+.h3_cats {
     color: black;
 }
 
