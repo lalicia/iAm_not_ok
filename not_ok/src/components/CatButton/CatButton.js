@@ -4,7 +4,7 @@ import {useState, useEffect} from "react";
 import styles from "./CatButton.module.css";
 
 
-function CatButton({getCats, handleClick}) {
+function CatButton({currentCats, handleClick}) {
   const [cats, setCats] = useState([]);
 
   useEffect(
@@ -19,7 +19,7 @@ function CatButton({getCats, handleClick}) {
 
       fetchData();
     },
-    [getCats]
+    [currentCats]
   ); //without dependency OR dependency [cats] gets stuck in loop of fetching cats
 
 

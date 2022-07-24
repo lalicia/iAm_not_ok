@@ -9,13 +9,13 @@ function CatGenPage() {
   const [currentCats, fetchCats]= useState(false);
 
   function handleClick() {
-    // currentCats === true ? 
-    // fetchCats(false) : fetchCats(true) 
-    if(currentCats === true){
-      fetchCats(false)
-    }else{
-      fetchCats(true)
-    }
+    currentCats === true ? 
+    fetchCats(false) : fetchCats(true) 
+    // if(currentCats === true){
+    //   fetchCats(false)
+    // }else{
+    //   fetchCats(true)
+    // }
   }
 
   return(
@@ -25,7 +25,7 @@ function CatGenPage() {
             <h2>Let's get you some cats</h2>
         
         
-        <CatButton getCats={currentCats} handleClick={handleClick}/>
+        <CatButton currentCats={currentCats} handleClick={handleClick}/>
 
     
     </div>
