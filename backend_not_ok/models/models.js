@@ -1,6 +1,6 @@
 import {query} from "../db/index.js";
 import fetch from "node-fetch";
-import { response } from "express";
+import {response} from "express";
 
 //GET quote from quotes API
 export async function getQuote() {
@@ -9,4 +9,14 @@ export async function getQuote() {
     //console.log(data);
     return data;
     //res.json(data);
+};
+
+//GET doses from dose_suggestions table on Heroku
+export async function getDoses() {
+    // console.log('i have been called to get the doses') -this was working :)
+    const result = await query(`SELECT * FROM dose_suggestions;`);
+    // console.log(`this is the result :`, result);
+
+    const doses = result.rows;
+    return doses;
 };

@@ -23,6 +23,8 @@ app.use("/", router);
 
 app.get("/quote", router);
 
+app.get("/happydose/ideas", router);
+
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
