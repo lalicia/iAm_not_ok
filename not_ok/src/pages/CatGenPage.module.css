@@ -1,6 +1,6 @@
 .container {
     /* position: relative; */
-    background-image: url("../assets/cat_gen.jpg");
+    background-image: url("../assets/cat2.jpg");
     background-position: center center; /* means when you resize you get the center of the image in focus still */
     background-attachment: fixed; /*stops the image scrolling when the user scrolls */
     background-repeat: no-repeat; /*stops tiling/strange layout */
@@ -8,8 +8,8 @@
     height: 100vh;
     overflow: hidden;
 
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 a {
@@ -17,19 +17,18 @@ a {
     color: inherit;
 }
 
-.cat_header {
+header {
+    margin: 1.5rem 1.5rem 1.5rem;
+}
+
+/* .cat_header {
     margin: 1.5rem 1.5rem -.5rem 1.5rem;
     color: black;
-}
+} */
 
-.h3_back {
-    margin-top: -2rem;
-    margin-bottom: -1rem;
-}
-
-.h3_cats {
+/* .h3_cats {
     color: black;
-}
+} */
 
 .cat_h1 {
     font-size: 4rem;
@@ -44,4 +43,9 @@ h2 {
     margin-right: 2rem;
     margin-left: 4rem;
     min-width: 70%;
+}
+
+.h3_back {
+    margin-top: -2rem;
+    margin-bottom: -1rem;
 }

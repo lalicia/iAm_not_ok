@@ -1,6 +1,6 @@
 .container {
     position: relative;
-    background-image: url("../assets/galaxy2.jpg");
+    background-image: url("../assets/starbucks.jpg");
     background-position: center center; /* means when you resize you get the center of the image in focus still */
     background-attachment: fixed; /*stops the image scrolling when the user scrolls */
     background-repeat: no-repeat; /*stops tiling/strange layout */
@@ -58,7 +58,7 @@ h2 {
 .progfeed {
     margin-top: 2rem;
     width: 25%;
-    background: rgba(143, 52, 70, 0.5);
+    background: rgba(52, 143, 70, 0.5);
     padding: 0.5rem;
     border-radius: 5px;
 }
@@ -66,7 +66,7 @@ h2 {
 .historyfeed {
     margin-top: 2rem;
     width: 25%;
-    background: rgba(143, 52, 70, 0.5);
+    background: rgba(52, 143, 70, 0.5);
     padding: 0.5rem;
     border-radius: 5px;
 }
@@ -74,7 +74,9 @@ h2 {
 .sylabfeed {
     margin-top: 2rem;
     width: 25%;
-    background: rgba(143, 52, 70, 0.5);
+    background: rgba(52, 143, 70, 0.5);
     padding: 0.5rem;
     border-radius: 5px;
 }
+
+/*rgba(143, 52, 70, 0.5)*/

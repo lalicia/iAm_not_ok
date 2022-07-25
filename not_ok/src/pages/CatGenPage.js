@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 import styles from './CatGenPage.module.css';
 import CatButton from '../components/CatButton/CatButton.js';
@@ -20,9 +21,9 @@ function CatGenPage() {
 
   return(
     <div className={styles.container}>
-        <header className={styles.cat_header}><h1><a href="/">iAm != "ok"</a></h1></header>
-        <h3 className={styles.h3_cats}><a href="/happydose">(or go back a step)</a></h3>   
-            <h2>Let's get you some cats</h2>
+        <header className={styles.header}><h1><a href="/">iAm != "ok"</a></h1></header>
+        <h3 className={styles.h3_back}><Link to="/happydose">(or go back a step)</Link></h3>   
+            <h2>Let's get you some cats ...</h2>
         
         
         <CatButton currentCats={currentCats} handleClick={handleClick}/>
