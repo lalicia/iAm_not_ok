@@ -16,21 +16,25 @@ function IdeasPage() {
     const [doses, setDoses] = useState([]);
     const [text, setText] = useState("");
 
+
     function handleClick(input) {
         const newDose = {
           dose: input
         } 
-    /* 
-        async function postTodo(){
-          let res= await fetch('http://localhost:3001/todo'{
-            method: 'POST',
-            headers:{'Content-Type':"application/json"},
-            body:JSON.stringify(newItem)
-          })
-          let addeditem= await res.json
-          }
-    
-     */
+
+        //sends request to POST new idea to dose_suggestions table
+        async function postIdea(){
+            let res = await fetch('http://localhost:3001/happydose/ideas', {
+                method: 'POST',
+                headers: {'Content-Type':"application/json"},
+                body: JSON.stringify(newDose)
+              })
+            
+              let postedIdea = await res.json;
+              //console.log(`this idea got posted: `, postedIdea);
+            }
+            
+        postIdea();
     
         console.log(newDose)
         setDoses([...doses, newDose]);
