@@ -1,6 +1,6 @@
 import express from 'express';
 //will need to import models
-import {getQuote, getDoses} from "../models/models.js";
+import {getQuote, getDoses, postIdea} from "../models/models.js";
 
 const router = express.Router();
 
@@ -31,6 +31,18 @@ router.get("/happydose/ideas", async function(req, res) {
     // console.log(`this is what will be sent to frontend as result:`, doseResults);
     return data;  
     })
+
+//to POST new happy idea
+router.post('/happydose/ideas', async function(req,res) {
+    let newIdea = await postIdea(req.body)
+    
+    let data = res.json({
+        success: true,
+        payload: newIdea,
+    })
+
+    return data;
+})
 
 
 export default router;

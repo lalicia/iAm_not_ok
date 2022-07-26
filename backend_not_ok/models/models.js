@@ -20,3 +20,12 @@ export async function getDoses() {
     const doses = result.rows;
     return doses;
 };
+
+//POST new idea to dose_suggestions table on Heroku
+export async function postIdea(info) {
+    const res = await query(`INSERT INTO dose_suggestions (dose)
+    VALUES ($1) RETURNING *;`, [info.dose])
+    
+    const newIdea = res.rows;
+    return newIdea;
+}
