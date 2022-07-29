@@ -1,14 +1,17 @@
-/*essentially same as HomePage just rendering choices for next page*/
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
 
 .container {
     position: relative;
-    background-image: url("../assets/home-page-cloudsmini.jpg");
+    background-image: url("../assets/tools.jpg");
     background-position: center center; /* means when you resize you get the center of the image in focus still */
     background-attachment: fixed; /*stops the image scrolling when the user scrolls */
     background-repeat: no-repeat; /*stops tiling/strange layout */
     background-size: cover; /*combined with the two above, this makes good setting for styling */
-    min-height: 100vh;
-    overflow: hidden;
+    height: 100vh;
+    overflow-x: hidden;
+
+    /* display: flex;
+    flex-direction: row; */
 }
 
 a {
@@ -35,9 +38,3 @@ h2 {
     min-width: 70%;
 }
 
-.dose_selection {
-    position: absolute;
-    display: flex;
-    margin-left: 20rem;
-    /* justify-content: space-between; */
-}

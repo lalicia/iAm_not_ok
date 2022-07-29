@@ -1,6 +1,6 @@
 .container {
     /* position: relative; */
-    background-image: url("../assets/fire.jpg");
+    background-image: url("../assets/firemini.jpg");
     background-position: center center; /* means when you resize you get the center of the image in focus still */
     background-attachment: fixed; /*stops the image scrolling when the user scrolls */
     background-repeat: no-repeat; /*stops tiling/strange layout */
