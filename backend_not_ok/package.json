@@ -14,7 +14,8 @@
     "populateToolsTable": "node -r dotenv/config ./db/scripts/populateToolsTable.js",
     "dropTable": "node -r dotenv/config ./db/scripts/dropTable.js",
     "dropToolsTable": "node -r dotenv/config ./db/scripts/dropToolsTable.js",
-    "resetTable": "npm run dropTable && npm run createTable && npm run populateTable"
+    "resetTable": "npm run dropTable && npm run createTable && npm run populateTable",
+    "resetToolsTable": "npm run dropToolsTable && npm run createToolsTable && npm run populateToolsTable"
   },
   "author": "",
   "license": "ISC",

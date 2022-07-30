@@ -11,14 +11,14 @@ const toolsData = [
         type: "mobile app",
         description: "Self-care widget pet: take care of yourself by taking care of your pet",
         link: "https://finchcare.com/",
-        imageUrl: "https://play-lh.googleusercontent.com/a3y33ApEs0aQW5xOn4NwO2Rw1WKP9j3A3dIrDwtHnIPsRCaCfS7973zFYFkSN7TwKLk=s48-rw"
+        imageUrl: "https://pbs.twimg.com/media/E4GkUI3UcAAV5ph.jpg"
     },
     {
         name: "Woebot",
         type: "mobile app",
         description: "Self-care expert in CBT (Cognitive Behavioural Therapy) and mindfulness - a robot designed to help with anxiety and depression",
         link: "https://woebothealth.com/",
-        imageUrl: "https://play-lh.googleusercontent.com/a3y33ApEs0aQW5xOn4NwO2Rw1WKP9j3A3dIrDwtHnIPsRCaCfS7973zFYFkSN7TwKLk=s48-rw"
+        imageUrl: "https://www.mobihealthnews.com/sites/default/files/Screen%20Shot%202017-06-06%20at%202.52.59%20PM.png"
     },
     {
         name: "moodgym",

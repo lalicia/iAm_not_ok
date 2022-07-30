@@ -15,7 +15,7 @@ function ToolCard({tools}) {
                     </div>
                     <div className="tool-body">
                         <p className={styles.toolp}><i>This is a... </i>{item.type}</p>
-                        <p className={styles.toolp}><i>Synopsis... </i>{item.description}</p>
+                        <p className={styles.toolp}><i>Synopsis: </i>{item.description}</p>
                     </div>
                 </div>
 

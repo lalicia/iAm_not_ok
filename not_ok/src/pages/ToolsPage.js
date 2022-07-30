@@ -30,10 +30,9 @@ function ToolsPage() {
             <header><h1><a href="/">iAm != "ok"</a></h1></header>
                 <h2>These are some tools that might help you deal with how you're feeling.<br></br>The suggestions range from books, to apps, to music, and more.</h2>
                 
-                <div className={styles.dose_selection}>
-                <ToolCard tools={tools}/>
-
-            </div>        
+                <div className={styles.tool_selection}>
+                    <ToolCard tools={tools}/>
+                </div>        
     
         </div>
     )
