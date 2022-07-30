@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
+
+.container {
+    position: relative;
+    background-image: url("../assets/nlightsmini.jpg");
+    background-position: center center; /* means when you resize you get the center of the image in focus still */
+    background-attachment: fixed; /*stops the image scrolling when the user scrolls */
+    background-repeat: no-repeat; /*stops tiling/strange layout */
+    background-size: cover; /*combined with the two above, this makes good setting for styling */
+    height: 100vh;
+    overflow-x: hidden;
+
+    /* display: flex;
+    flex-direction: row; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    margin: 1.5rem 1.5rem 1.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    /* font-weight: bolder; */
+}
+
+h2 {
+    font-size: 2.75rem;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 4rem;
+    min-width: 70%;
+}
+
+.tool_selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
