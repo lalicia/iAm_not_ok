@@ -16,7 +16,7 @@ function Quote() {
     }, [])
 
     const fetchQuote = async () => {
-        const response = await fetch("https://iam-notok.herokuapp.com/quote");
+        const response = await fetch(`${process.env.REACT_APP_BACKEND}quote`);
         const data = await response.json();
         console.log(data);
         setQuoteState(data[0].q);

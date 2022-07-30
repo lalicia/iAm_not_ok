@@ -23,18 +23,19 @@ function IdeasPage() {
         } 
 
         //sends request to POST new idea to dose_suggestions table
-        async function postIdea(){
-            let res = await fetch('http://localhost:3001/happydose/ideas', {
-                method: 'POST',
-                headers: {'Content-Type':"application/json"},
-                body: JSON.stringify(newDose)
-              })
+        //commented out to disable as unable to monitor for abuse once deployed
+        // async function postIdea(){
+        //     let res = await fetch(`${process.env.REACT_APP_BACKEND}happydose/ideas`, {
+        //         method: 'POST',
+        //         headers: {'Content-Type':"application/json"},
+        //         body: JSON.stringify(newDose)
+        //       })
             
-              let postedIdea = await res.json;
-              //console.log(`this idea got posted: `, postedIdea);
-            }
+        //       let postedIdea = await res.json;
+        //       //console.log(`this idea got posted: `, postedIdea);
+        //     }
             
-        postIdea();
+        // postIdea();
     
         console.log(newDose)
         setDoses([...doses, newDose]);
@@ -43,7 +44,7 @@ function IdeasPage() {
 
     //request to backend for doses
     async function fetchDoses(){
-        let res= await fetch('https://iam-notok.herokuapp.com/happydose/ideas')
+        let res= await fetch(`${process.env.REACT_APP_BACKEND}happydose/ideas`)
         let data = await res.json()
         console.log(data.payload)
         setDoses(data.payload)

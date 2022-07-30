@@ -18,7 +18,7 @@
     /* background: linear-gradient(rgba(54, 40, 19, 0.2), rgba(54, 40, 19, 0.2)); */
     border-radius: 30px;
     /* for when fades back to this version on state update */
-    transition: 3s;
+    transition: 1.5s;
 }
 
 .emptywriteout {
@@ -38,7 +38,7 @@
     background-color:rgb(255, 221, 165);
     /* background: linear-gradient(rgb(255, 221, 165), rgb(230, 187, 118), rgb(237, 168, 58), rgb(219, 57, 3)); */
     border-radius: 30px;
-    transition: all 3s;
+    transition: all 1.5s;
 }
 
 .writeout_btn {
