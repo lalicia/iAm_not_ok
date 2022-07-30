@@ -39,3 +39,13 @@ export async function getTools() {
     const tools = result.rows;
     return tools;
 };
+
+//GET contacts from rightnow_contacts table on Heroku
+export async function getContacts() {
+    // console.log('i have been called to get the doses') -this was working :)
+    const result = await query(`SELECT * FROM rightnow_contacts;`);
+    // console.log(`this is the result :`, result);
+
+    const contacts = result.rows;
+    return contacts;
+};

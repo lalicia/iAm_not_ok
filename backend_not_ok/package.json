@@ -10,12 +10,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "createTable": "node -r dotenv/config ./db/scripts/createTable.js",
     "createToolsTable": "node -r dotenv/config ./db/scripts/createToolsTable.js",
+    "createContactsTable": "node -r dotenv/config ./db/scripts/createContactsTable.js",
     "populateTable": "node -r dotenv/config ./db/scripts/populateTable.js",
     "populateToolsTable": "node -r dotenv/config ./db/scripts/populateToolsTable.js",
+    "populateContactsTable": "node -r dotenv/config ./db/scripts/populateContactsTable.js",
     "dropTable": "node -r dotenv/config ./db/scripts/dropTable.js",
     "dropToolsTable": "node -r dotenv/config ./db/scripts/dropToolsTable.js",
+    "dropContactsTable": "node -r dotenv/config ./db/scripts/dropContactsTable.js",
     "resetTable": "npm run dropTable && npm run createTable && npm run populateTable",
-    "resetToolsTable": "npm run dropToolsTable && npm run createToolsTable && npm run populateToolsTable"
+    "resetToolsTable": "npm run dropToolsTable && npm run createToolsTable && npm run populateToolsTable",
+    "resetContactsTable": "npm run dropContactsTable && npm run createContactsTable && npm run populateContactsTable"
   },
   "author": "",
   "license": "ISC",
