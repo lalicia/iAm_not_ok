@@ -29,3 +29,13 @@ export async function postIdea(info) {
     const newIdea = res.rows;
     return newIdea;
 }
+
+//GET tools from tool_suggestions table on Heroku
+export async function getTools() {
+    // console.log('i have been called to get the doses') -this was working :)
+    const result = await query(`SELECT * FROM tool_suggestions;`);
+    // console.log(`this is the result :`, result);
+
+    const tools = result.rows;
+    return tools;
+};

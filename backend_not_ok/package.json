@@ -9,8 +9,11 @@
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "createTable": "node -r dotenv/config ./db/scripts/createTable.js",
+    "createToolsTable": "node -r dotenv/config ./db/scripts/createToolsTable.js",
     "populateTable": "node -r dotenv/config ./db/scripts/populateTable.js",
+    "populateToolsTable": "node -r dotenv/config ./db/scripts/populateToolsTable.js",
     "dropTable": "node -r dotenv/config ./db/scripts/dropTable.js",
+    "dropToolsTable": "node -r dotenv/config ./db/scripts/dropToolsTable.js",
     "resetTable": "npm run dropTable && npm run createTable && npm run populateTable"
   },
   "author": "",

@@ -1,6 +1,6 @@
 import express from 'express';
 //will need to import models
-import {getQuote, getDoses, postIdea} from "../models/models.js";
+import {getQuote, getDoses, postIdea, getTools} from "../models/models.js";
 
 const router = express.Router();
 
@@ -44,5 +44,19 @@ router.post('/happydose/ideas', async function(req,res) {
     return data;
 })
 
+//to GET all tool_suggestions from Heroku
+router.get("/tools", async function(req, res) {
+    // const resourcesID = req.params.id;
+    // console.log(resourcesID)
+    let tools = await getTools()
+    // console.log(`this is the doses: `, doses);
+
+    let data = res.json({
+        success: true,
+        payload: tools,
+    })
+    // console.log(`this is what will be sent to frontend as result:`, doseResults);
+    return data;  
+    })
 
 export default router;
