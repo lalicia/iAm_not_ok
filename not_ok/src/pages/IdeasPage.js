@@ -43,7 +43,7 @@ function IdeasPage() {
 
     //request to backend for doses
     async function fetchDoses(){
-        let res= await fetch('http://localhost:3001/happydose/ideas')
+        let res= await fetch('https://iam-notok.herokuapp.com/happydose/ideas')
         let data = await res.json()
         console.log(data.payload)
         setDoses(data.payload)

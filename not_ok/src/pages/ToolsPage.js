@@ -13,7 +13,7 @@ function ToolsPage() {
 
     //request to backend for tools
     async function fetchTools(){
-        let res= await fetch('http://localhost:3001/tools')
+        let res= await fetch('https://iam-notok.herokuapp.com/tools')
         let data = await res.json()
         console.log(data.payload)
         setTools(data.payload)

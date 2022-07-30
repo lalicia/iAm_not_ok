@@ -9,7 +9,7 @@ function RightNowContactsPage() {
 
     //request to backend for tools
     async function fetchContacts(){
-        let res= await fetch('http://localhost:3001/rightnowcontacts')
+        let res= await fetch('https://iam-notok.herokuapp.com/rightnowcontacts')
         let data = await res.json()
         console.log(data.payload)
         setContacts(data.payload)
