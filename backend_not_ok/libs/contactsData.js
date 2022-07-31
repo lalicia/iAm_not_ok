@@ -15,7 +15,7 @@ const contactsData = [
         name: "Refuge",
         info: `"Refuge supports women, children, and men experiencing domestic violence, with a range of services"`,
         contact: "https://www.refuge.org.uk/",
-        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7v7ifZYpDCXENqLdhWvlaO2FrlkQ15wqAbwtLJM-_WSqy65XFdF1E&usqp=CAE&s"
+        logo: "https://www.warwickshire-pcc.gov.uk/wp-content/uploads/2016/11/Refuge-logo.jpg"
     },
     {
         name: "Citizen's Advice",

@@ -59,7 +59,7 @@ const toolsData = [
         name: "Yellow Brick Cinema: Relaxing Music",
         type: "youtube station",
         description: "Relaxing music 24/7",
-        link: "https://www.youtube.com/watch?v=aWtWtWdwVHg",
+        link: "https://www.youtube.com/c/YellowBrickCinema",
         imageUrl: "https://yt3.ggpht.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s176-c-k-c0x00ffffff-no-rj"
     },
 ]
