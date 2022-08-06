@@ -22,9 +22,13 @@ function HomePage() {
             <header><h1><a href="/">iAm != "ok"</a></h1></header>
                 <h2>I'm sorry you're not ok.  Hopefully something here can help or make you feel better.</h2>
             {/* <h3>What would you like to give a go?</h3> */}
-            <NavSideBar />
-            <Quote />
             
+            <div className={styles.content}>
+                <NavSideBar />
+                <div className={styles.quote_container}>
+                    <Quote />
+                </div>
+            </div>
         </div>
     )
 }

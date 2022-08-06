@@ -6,12 +6,16 @@
     background-color: rgba(220, 186, 231, 0.25);
     border-color: white;
     border-style: dashed;
-    padding: 60px;
+    padding: 3.75rem;
     border-radius: 30px;
+    
+    /*06/08/2022 turned off as fighting styling the quote div in homepage
     margin-left: 32%;
     margin-right: 10%;
-    margin-top: 5rem;
+    margin-top: 5rem;*/
+
     font-family: 'Caveat', cursive;
+    margin-top: 15%;
 }
 
 
@@ -20,9 +24,6 @@
 
 /* .quote {
     display: flex;
-    justify-content: flex-end;
-    text-align: right;
-    color: black;
 } */
 
 /* couldn't get this styling to work - h2 was taking HomePage style and adding a class just did nothing...not sure what the problem is or what doing wrong?*/
