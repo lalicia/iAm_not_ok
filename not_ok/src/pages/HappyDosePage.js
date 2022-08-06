@@ -23,28 +23,31 @@ function HappyDosePage() {
         <div className={styles.container}>
             <header><h1><a href="/">iAm != "ok"</a></h1></header>
                 <h2>Ok, so what sounds like your idea of happy?</h2>
-            <NavSideBar />
+            
+            <div className={styles.hd_content}>
+                <NavSideBar />
 
-            <div className={styles.dose_selection}>
-                <Card 
-                    title="Amusing Feeds" 
-                    imageUrl={happyfeeds} 
-                    body="Let's checkout some funny feeds - memes, gifs - gimme what you got"
-                    page="/happydose/funnyfeeds"
-                />
-                 <Card 
-                    title="Cats Cats Cats" 
-                    imageUrl={happycats} 
-                    body="I want to use the internet for its true purpose - cats please"
-                    page="/happydose/catpicgenerator"
-                />
-                 <Card 
-                    title="Music, Movies, and More" 
-                    imageUrl={happymedia} 
-                    body="Let's see some ideas from other people - maybe add one too :)"
-                    page="/happydose/ideas"
-                />
+                <div className={styles.dose_selection}>
+                    <Card 
+                        title="Amusing Feeds" 
+                        imageUrl={happyfeeds} 
+                        body="Let's checkout some funny feeds - memes, gifs - gimme what you got"
+                        page="/happydose/funnyfeeds"
+                    />
+                    <Card 
+                        title="Cats Cats Cats" 
+                        imageUrl={happycats} 
+                        body="I want to use the internet for its true purpose - cats please"
+                        page="/happydose/catpicgenerator"
+                    />
+                    <Card 
+                        title="Music, Movies, and More" 
+                        imageUrl={happymedia} 
+                        body="Let's see some ideas from other people - maybe add one too :)"
+                        page="/happydose/ideas"
+                    />
 
+                </div>
             </div>
             
         </div>
