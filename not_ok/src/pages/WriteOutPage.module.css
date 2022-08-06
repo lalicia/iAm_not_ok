@@ -1,12 +1,14 @@
 .container {
     /* position: relative; */
-    background-image: url("../assets/firemini.jpg");
+    background-image: url("../assets/fire6mini.jpg");
     background-position: center center; /* means when you resize you get the center of the image in focus still */
     background-attachment: fixed; /*stops the image scrolling when the user scrolls */
     background-repeat: no-repeat; /*stops tiling/strange layout */
     background-size: cover; /*combined with the two above, this makes good setting for styling */
     height: 100vh;
-    overflow: hidden;
+
+    /*changed from hidden to overlay, seems to work better for moving around*/
+    overflow: overlay;
 }
 
 a {
@@ -33,17 +35,34 @@ h2 {
     min-width: 70%;
 }
 
-h3 {
-    font-size: 1.5rem;
+.writeouth3 {
+    font-size: 1.4rem;
     /* here the width styles help position around image */
-    width: 300px;
-    max-width: 30%;
+    
+    /* width: 18.75rem;
+    max-width: 30%; */
     margin-left: 2rem;
+    /* margin-right: 2rem; */
     margin-bottom: 2rem;
     /* display: flex;
     flex-direction: row; */
 }
 
-.writeout-all {
-    position: relative;
+.writeout_all {
+    /* position: relative; */
+    display: flex;
+}
+
+.writeout_explanation {
+    display: flex;
+    width: 23rem;
+    max-width: 30%;
+}
+
+.writeout_content {
+    display: flex;
+    /* flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 2rem; */
 }
