@@ -3,9 +3,11 @@
 .writeout_section {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 65%;
+    max-width: 60%;
     align-items: center;
-    margin-left: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: 2rem;
 }
 
@@ -22,12 +24,12 @@
     margin-top: -30rem;*/
 
     height: 25rem;
-    width: 55rem;
-    max-width: 68%;
+    width: 80rem;
+    max-width: 85%;
     padding: 15px;
     border: dashed;
     border-color: white;
-    background-color: rgba(9, 7, 5, 0.9);
+    background-color: rgba(4, 2, 1, 0.8);
     /* background: linear-gradient(rgba(54, 40, 19, 0.2), rgba(54, 40, 19, 0.2)); */
     border-radius: 30px;
     /* for when fades back to this version on state update */
@@ -44,8 +46,8 @@
     /* margin-left: 45%;
     margin-top: -30rem; */
     height: 25rem;
-    width: 55rem;
-    max-width: 68%;
+    width: 80rem;
+    max-width: 85%;
     padding: 15px;
     border: dashed;
     border-color: white;

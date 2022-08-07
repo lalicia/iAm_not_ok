@@ -1,6 +1,6 @@
 .container {
     /* position: relative; */
-    background-image: url("../assets/fire6mini.jpg");
+    background-image: url("../assets/fire2mini.jpg");
     background-position: center center; /* means when you resize you get the center of the image in focus still */
     background-attachment: fixed; /*stops the image scrolling when the user scrolls */
     background-repeat: no-repeat; /*stops tiling/strange layout */
@@ -55,8 +55,12 @@ h2 {
 
 .writeout_explanation {
     display: flex;
-    width: 23rem;
-    max-width: 30%;
+    width: 50rem;
+    max-width: 35%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
 }
 
 .writeout_content {
