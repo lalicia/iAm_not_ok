@@ -4,7 +4,7 @@ const toolsData = [
         type: "mobile app, Netflix program, website",
         description: "Meditation and sleep made simple",
         link: "https://www.headspace.com/",
-        imageUrl: "https://scontent-man2-1.xx.fbcdn.net/v/t39.30808-6/265546887_10158521640749080_1788363244475602597_n.png?_nc_cat=111&ccb=1-7&_nc_sid=9267fe&_nc_ohc=onOF_tIfWygAX_1JV4e&_nc_ht=scontent-man2-1.xx&oh=00_AT9Rz0WECONz43DU5qoZhpJQnC2lmSizvjhtnLrxD2gWDQ&oe=62E889B6"
+        imageUrl: "https://assets.website-files.com/621c6b4bbb46ebf1ad716b51/621eeb8825471d4ae870768b_headspace-about.svg"
     },
     {
         name: "Finch",
