@@ -58,9 +58,9 @@ function IdeasPage() {
 
     return (
         <div className={styles.container}>
-            <header><h1><a href="/">iAm != "ok"</a></h1></header>
+            <header className={styles.ideas_header}><h1 className={styles.ideas_h1}><a href="/">iAm != "ok"</a></h1></header>
             <h3 className={styles.h3_back}><a href="/happydose">(or go back a step)</a></h3>
-                <h2>Let's get some inspiration...</h2>
+                <h2 className={styles.ideas_h2}>Let's get some inspiration...</h2>
                 
             
                 <Input handleClick={handleClick} text={text} setText={setText}/>

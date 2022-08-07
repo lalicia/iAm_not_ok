@@ -30,11 +30,11 @@ function WriteOutInput() {
     };
 
     return (
-        <>
+        <div className={styles.writeout_section}>
             <textarea className={isEmpty ? `${styles.emptywriteout}` : `${styles.writeout}`} value={inputValue} onChange={handleUserInput} spellcheck="false">
             </textarea>
             <button className={styles.writeout_btn} onClick={resetInputField}>Release</button>
-        </>
+        </div>
     )
 }
 

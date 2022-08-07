@@ -11,6 +11,17 @@
     overflow: hidden;
 }
 
+.content {
+    display: flex;
+}
+
+.quote_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 8% 2rem 2rem 2rem;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -35,13 +46,14 @@ h2 {
     min-width: 70%;
 }
 
-h3 {
+/*commented out h3 as affecting h3 on writeout and this one isn't being used*/
+/* h3 {
     font-size: 1.5rem;
     width: 300px;
     max-width: 30%;
     margin-left: 1rem;
     margin-bottom: 2rem;
-}
+} */
 
 /* .quote p {
     text-align: center;

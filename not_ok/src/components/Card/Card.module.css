@@ -1,13 +1,18 @@
 .container {
-    width: 300px;
+    width: 18.75rem;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
     transition: 0.5s;
     animation: ease-in;
     /*had to take out the below line as it was forcing the cards to stack on top of one another!*/
     /* position: absolute; */
-    margin-left: 5rem;
-    margin-top: 5rem;
+    
+    /*removed as positioning with flex in bigger div
+    margin-left: 5rem;*/
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
     background-color: rgba(255,255,255,0.8);
     border-radius: 3px;
     color: black;
@@ -26,7 +31,7 @@
 .imagecontainer img {
     margin-top: 1rem;
     overflow: hidden;
-    height: 200px;
+    height: 12.5rem;
 }
 
 .cardcontent {

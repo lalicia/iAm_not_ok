@@ -11,6 +11,10 @@
     overflow: hidden;
 }
 
+.hd_content {
+    display: flex;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -36,8 +40,14 @@ h2 {
 }
 
 .dose_selection {
-    position: absolute;
+    /*06/08/2022 removed as doesn't seem necessary
+    position: absolute; */
+
     display: flex;
-    margin-left: 20rem;
-    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin: 0 2rem 0 1rem;;
+    justify-content: space-around;
+    align-content: space-around;
+    /*width needed to made the items space-around, no idea why!*/
+    width: 100%;
 }

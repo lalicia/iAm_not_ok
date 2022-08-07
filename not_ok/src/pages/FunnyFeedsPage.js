@@ -18,9 +18,9 @@ function FunnyFeedsPage() {
 
     return (
         <div className={styles.container}>
-            <header><h1><a href="/">iAm != "ok"</a></h1></header>
+            <header className={styles.ff_header}><h1 className={styles.ff_h1}><a href="/">iAm != "ok"</a></h1></header>
             <h3 className={styles.h3_back}><a href="/happydose">(or go back a step)</a></h3>
-                <h2>Some feeds for you to checkout</h2>
+                <h2 className={styles.h2_ff}>Some feeds for you to checkout</h2>
             
             <div className={styles.allfeeds}>
                 <div className={styles.progfeed}>
