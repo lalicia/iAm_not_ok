@@ -3,18 +3,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-right: 10%; */
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .catimg {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
     border: .5em solid black;
     box-shadow: 0 0 1em .25em white,
     0 0 4em 1em white;
     border-radius: 50px;
     overflow: hidden;
     width: auto;
-    height: 400px;
+    max-height: 50vh;
     /* display: flex;
     justify-self: center; */
   }

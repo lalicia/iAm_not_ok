@@ -29,7 +29,7 @@ function HappyDosePage() {
 
                 <div className={styles.dose_selection}>
                     <Card 
-                        title="Amusing Feeds" 
+                        title="Funny Feeds" 
                         imageUrl={happyfeeds} 
                         body="Let's checkout some funny feeds - memes, gifs - gimme what you got"
                         page="/happydose/funnyfeeds"

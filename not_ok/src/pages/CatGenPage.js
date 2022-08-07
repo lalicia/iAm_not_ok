@@ -21,9 +21,9 @@ function CatGenPage() {
 
   return(
     <div className={styles.container}>
-        <header className={styles.header}><h1><a href="/">iAm != "ok"</a></h1></header>
+        <header className={styles.cat_header}><h1><a href="/">iAm != "ok"</a></h1></header>
         <h3 className={styles.h3_back}><Link to="/happydose">(or go back a step)</Link></h3>   
-            <h2>Let's get you some cats ...</h2>
+            <h2 className={styles.h2_cat}>Let's get you some cats ...</h2>
         
         
         <CatButton currentCats={currentCats} handleClick={handleClick}/>

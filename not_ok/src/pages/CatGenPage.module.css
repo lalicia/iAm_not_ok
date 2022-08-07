@@ -5,7 +5,7 @@
     background-attachment: fixed; /*stops the image scrolling when the user scrolls */
     background-repeat: no-repeat; /*stops tiling/strange layout */
     background-size: cover; /*combined with the two above, this makes good setting for styling */
-    height: 100vh;
+    min-height: 100vh; /*having this min-height means the page will scroll if elements go off the bottom of the immediately visible area*/
     overflow: hidden;
 
     /* display: flex;
@@ -17,8 +17,10 @@ a {
     color: inherit;
 }
 
-header {
-    margin: 1.5rem 1.5rem 1.5rem;
+.cat_header {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0;
 }
 
 /* .cat_header {
@@ -35,10 +37,10 @@ header {
     /* font-weight: bolder; */
 }
 
-h2 {
+.h2_cat {
     font-size: 2.75rem;
     text-align: center;
-    margin-top: -1rem;
+    margin-top: 0;
     margin-bottom: 1rem;
     margin-right: 2rem;
     margin-left: 4rem;
@@ -46,6 +48,7 @@ h2 {
 }
 
 .h3_back {
-    margin-top: -2rem;
-    margin-bottom: -1rem;
+    margin-top: .3rem;
+    /* margin-bottom: -1rem; */
+    margin-left: 2rem;
 }
