@@ -17,16 +17,19 @@ a {
     color: inherit;
 }
 
-header {
-    margin: 1.5rem 1.5rem 1.5rem;
+.ff_header {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0;
 }
 
 .h3_back {
-    margin-top: -2rem;
-    margin-bottom: -1rem;
+    margin-top: .3rem;
+    /* margin-bottom: -1rem; */
+    margin-left: 2rem;
 }
 
-h1 {
+.ff_h1 {
     font-size: 4rem;
     /* font-weight: bolder; */
 }
@@ -49,34 +52,41 @@ h2 {
 
 .h3feed {
     max-width: 100%;
-    /* word-wrap: break-word; */
+    word-wrap: break-word;
     margin-left: 0;
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
 
 .progfeed {
-    margin-top: 2rem;
-    width: 25%;
+    margin-top: 1rem;
+    width: 28%;
     background: rgba(52, 143, 70, 0.5);
     padding: 0.5rem;
     border-radius: 5px;
+    /*added the below to make div independently scrollable*/
+    max-height: 100vh;
+    overflow-y: auto;
 }
 
 .historyfeed {
-    margin-top: 2rem;
-    width: 25%;
+    margin-top: 1rem;
+    width: 28%;
     background: rgba(52, 143, 70, 0.5);
     padding: 0.5rem;
     border-radius: 5px;
+    max-height: 100vh;
+    overflow-y: auto;
 }
 
 .sylabfeed {
-    margin-top: 2rem;
-    width: 25%;
+    margin-top: 1rem;
+    width: 28%;
     background: rgba(52, 143, 70, 0.5);
     padding: 0.5rem;
     border-radius: 5px;
+    max-height: 100vh;
+    overflow-y: auto;
 }
 
 /*rgba(143, 52, 70, 0.5)*/
