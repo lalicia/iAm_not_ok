@@ -1,0 +1,67 @@
+.modal_bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(211, 211, 211, 0.75);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_container {
+    width: 31rem;
+    height: 20rem;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgb(99, 0, 99) 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.modal_container .title {
+    display: inline-block;
+    text-align: center;
+    /* margin-top: 1rem; */
+    font-size: 2rem;
+    color: black;
+}
+
+.xbtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.xbtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal_container .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+}
+
+.closebtn {
+    display: flex;
+    justify-content: center;
+}
+
+.closebtn button{
+    width: 9rem;
+    height: 2.5rem;
+    margin: .75rem;
+    border: none;
+    background-color: magenta;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

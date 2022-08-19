@@ -11,10 +11,14 @@ import styles from "./IdeasPage.module.css";
 import PostIt from "../components/PostIt/PostIt.js";
 import Input from "../components/Input/Input.js";
 
+import Modal from "../components/Modal/Modal.js";
+
 
 function IdeasPage() {
     const [doses, setDoses] = useState([]);
     const [text, setText] = useState("");
+
+    const [modal, setModal] = useState(true);
 
 
     function handleClick(input) {
@@ -58,6 +62,7 @@ function IdeasPage() {
 
     return (
         <div className={styles.container}>
+            {modal && <Modal setModal={setModal} />}
             <header className={styles.ideas_header}><h1 className={styles.ideas_h1}><a href="/">iAm != "ok"</a></h1></header>
             <h3 className={styles.h3_back}><a href="/happydose">(or go back a step)</a></h3>
                 <h2 className={styles.ideas_h2}>Let's get some inspiration...</h2>
