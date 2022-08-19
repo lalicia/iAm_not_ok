@@ -17,7 +17,9 @@ function WriteOutPage() {
 
     return (
         <div className={styles.container}>
-            <header><h1><a href="/">iAm != "ok"</a></h1></header>
+            {/* <div className={styles.headerbck}> */}
+                <header><h1><a href="/">iAm != "ok"</a></h1></header>
+            {/* </div> */}
             <h2>Here's a space for you to write-out whatever's bothering you...<br />and then let it go.</h2>
             <div className={styles.writeout_all}>
                 <div className={styles.writeout_explanation}>
@@ -28,6 +30,7 @@ function WriteOutPage() {
                     <WriteOutInput />
                 {/* </div> */}
             </div>
+            <h3 className={styles.bckbtn}><a href="/">/ home /</a></h3>
         </div>
     )
 }
