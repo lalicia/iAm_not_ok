@@ -79,7 +79,9 @@ function IdeasPage() {
                         body="Bake - and eat - a cake"
                     /> */}
                 </div>
-       
+                <div className={styles.bckbtndiv_ideas}>
+                    <h3 className={styles.bckbtn}><a href="/">/*home*/</a></h3>
+                </div>
         </div>
     )
 }

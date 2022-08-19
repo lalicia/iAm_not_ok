@@ -30,7 +30,9 @@ function WriteOutPage() {
                     <WriteOutInput />
                 {/* </div> */}
             </div>
-            <h3 className={styles.bckbtn}><a href="/">/ home /</a></h3>
+            <div className={styles.bckbtndiv}>
+                <h3 className={styles.bckbtn}><a href="/">/*home*/</a></h3>
+            </div>
         </div>
     )
 }

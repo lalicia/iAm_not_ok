@@ -28,7 +28,9 @@ function CatGenPage() {
         
         <CatButton currentCats={currentCats} handleClick={handleClick}/>
 
-    
+        <div className={styles.bckbtndiv}>
+                    <h3 className={styles.bckbtn}><a href="/">/*home*/</a></h3>  
+        </div>  
     </div>
   );
 }

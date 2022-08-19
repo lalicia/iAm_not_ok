@@ -11,6 +11,21 @@
     overflow: hidden;
 }
 
+.bckbtndiv {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.bckbtn {
+    /* display: flex;
+    flex-direction: row;
+    align-self: flex-end; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0rem 1.5rem 1.5rem 1.5rem;
+}
+
 .hd_content {
     display: flex;
 }

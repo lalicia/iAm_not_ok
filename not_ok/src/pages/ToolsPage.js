@@ -33,7 +33,9 @@ function ToolsPage() {
                 <div className={styles.tool_selection}>
                     <ToolCard tools={tools}/>
                 </div>        
-    
+                <div className={styles.bckbtndiv}>
+                    <h3 className={styles.bckbtn}><a href="/">/*home*/</a></h3>  
+                </div>  
         </div>
     )
 }
