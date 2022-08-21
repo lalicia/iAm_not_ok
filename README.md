@@ -34,7 +34,7 @@ The app is optimised for desktop and I focussed on making the CSS styling as res
 
 ## Tech
 
-React, Node.js, Express.js, CSS, JavaScript, HTML, Heroku, PostgreSQL, Netlify
+React, React Router, Node.js, Express.js, CSS, JavaScript, HTML, Heroku, PostgreSQL, Netlify
 
 ## Feedback and Future Implementation
 
