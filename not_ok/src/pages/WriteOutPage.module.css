@@ -7,8 +7,8 @@
     background-size: cover; /*combined with the two above, this makes good setting for styling */
     height: 100vh;
 
-    /*changed from hidden to overlay, seems to work better for moving around*/
-    overflow: overlay;
+    /*changed from hidden to overlay, seems to work better for moving around - checked from overflow: overlay to overflow-x: hidden on 21/08/2022 trying to solve white bar showing*/
+    overflow-x: hidden;
 }
 
 /* was working with having it at the top of the page but it didn't look right so not using this div
@@ -22,7 +22,7 @@
 .bckbtndiv {
     position: relative;
     margin-top: 2rem;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
 }
 
 .bckbtn {
