@@ -1,6 +1,6 @@
 # iAm != "ok"
 
-[Visit the app](https://iam-notok.netlify.app/)
+[Visit the app](https://iam-notok.netlify.app/) - please note that following removal of the free tier of Heroku, this backend of this project was redeployed with Railway. Railway's recently updated policies mean the backend for this project will be available for approximately 21 days of every month, so you might visit the site during this downtime and notice some information/functionality is unavailable. Apologies if this happens, but I can't afford to pay to support hobby projects unfortunately :purple_heart: I might try to hardcode the backend data to get around this, but for now...
 
 <img src="./readme_images/notok1.JPG" alt="homepage" width="750px">
 
@@ -34,7 +34,7 @@ The app is optimised for desktop and I focussed on making the CSS styling as res
 
 ## Tech
 
-React, React Router, Node.js, Express.js, CSS, JavaScript, HTML, Heroku, PostgreSQL, Netlify
+React, React Router, Node.js, Express.js, CSS, JavaScript, HTML, ~~Heroku~~, Railway, PostgreSQL, Netlify
 
 ## Feedback and Future Implementation
 
